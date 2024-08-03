@@ -67,9 +67,9 @@ public class UserListActivity extends AppCompatActivity implements UserAdapter.O
     static String deviceId;
     String profileImageUrl;
 
-    static String deviceIP = "192.168.1.128";
-    static String PORT = ":3000";
-    static String PRODUCTION_URL = "https://realtimechat-api-nodejs-socket-io.onrender.com/";
+    static String deviceIP = "your_ipv4_address";
+    static String PORT = ":3000"; //your port
+    static String PRODUCTION_URL = "enter_your_production_url";
     boolean isAlreadyRegistered;
     private static final String TAG = "UserListActivity";
 
